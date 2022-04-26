@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage_PF {
 
     @FindBy(id="name")
-    @CacheLookup
+//    @CacheLookup  // keeps element in the cache so that it is not searched again
     WebElement txt_username;
 
     @FindBy(id="password")

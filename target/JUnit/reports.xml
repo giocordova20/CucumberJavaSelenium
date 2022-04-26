@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="4.562">
-    <testcase classname="Feature to test google search functionality" name="Validate google search is working" time="4.423">
-        <system-out><![CDATA[Given browser is open.......................................................passed
-And user is on google search page...........................................passed
-When user enters a text in search box.......................................passed
-And hits enter..............................................................passed
-Then user is navigated to the search results................................passed
-]]></system-out>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.156">
+    <testcase classname="Feature to demo tags" name="Sample 2" time="0.038">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
     </testcase>
-    <testcase classname="feature to test login functionality" name="Check login is successful with valid credentials" time="0.003">
-        <system-out><![CDATA[Given user is on login page.................................................passed
-When user enters username and password......................................passed
-And clicks on login button..................................................passed
-Then user is navigated to the home page.....................................passed
-]]></system-out>
+    <testcase classname="Feature to demo tags" name="Sample 5" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
     </testcase>
 </testsuite>
